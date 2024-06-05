@@ -1,0 +1,2 @@
+# TODO: To download COCO dataset, take token from kaggle and add to environment. Use their internal API call to download the dataset from here
+# https://www.kaggle.com/datasets/pankrzysiu/cifar10-python
