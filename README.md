@@ -38,6 +38,11 @@ The project is structured into several modules:
 
 ## Results
 Performance is quantified through accuracy metrics on CIFAR10 and CIFAR100 datasets, showing that our models perform comparably to traditional methods with significantly reduced data requirements. Graphs and tables detailing these metrics are included in the project thesis COMING SOON.
+![Accuracy Score cifar100](/bin/cifar100Acc_Loss_Pr_Epoch.png "Accuracy score of ST_Class")
+
+![Precision, Recall and F1-Score](/bin/cifar100scores_across_epochs.png "Precision, Recall and F1-Score")
+
+![Confusion Matrix](/bin/cifar100metrics_and_confusion_matrix_cifar100.png "ST-Class Cifar100 Confusion Matrix")
 
 ## Discussion
 While the ST-Class model reaches an accuracy of 93.37% on CIFAR10 and 71.32% on CIFAR100, the SSL-ST-Class model achieves 89.44% and 47.52%, respectively. These results validate the effectiveness of semi-supervised learning models in utilizing less labeled data.
