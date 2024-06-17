@@ -56,7 +56,7 @@ We would like to firstly express our sincerest gratitude to our advisor Professo
 for his invaluable guidance throughout ups and down. We appreciate all your thoughfull
 feedback and truly couldn’t have done without it.
 
-We extend our appreciation to the eScience Center at the University of Southern Den3mark. All of the computation done for this project was performed on the UCloud interactive HPC system, which is managed by the eScience Center at the University of Southern
+We extend our appreciation to the eScience Center at the University of Southern Denmark. All of the computation done for this project was performed on the UCloud interactive HPC system, which is managed by the eScience Center at the University of Southern
 Denmark. We have been granted the generous DeiC-RUC-L1-202403 grant.
 A special thanks to Jakub Klust, his assistance has been crucial in helping us to get
 started with and navigating through using UCloud.
