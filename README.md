@@ -108,7 +108,7 @@ We use UCloud, a cloud-based service providing access to HPC environments. This 
 To optimize runtime, we implement both data and task parallelism using Python's multi-threading capabilities, distributing the workload across multiple Nvidia T4 GPUs, which significantly speeds up our training processes.
 
 ## Results
-Performance is quantified through accuracy metrics on CIFAR10 and CIFAR100 datasets, showing that our models perform comparably to traditional methods with significantly reduced data requirements. Graphs and tables detailing these metrics are included in the project thesis COMING SOON.
+Performance is quantified through accuracy metrics on CIFAR10 and CIFAR100 datasets, showing that our models perform comparably to traditional methods with significantly reduced data requirements. Graphs and tables detailing these metrics are included in the project thesis (Awaiting Publications Link).
 
 <p align="center">
   <img src="/bin/cifar100Acc_Loss_Pr_Epoch.png" alt="Accuracy and Loss CIFAR100" width="800"/>
