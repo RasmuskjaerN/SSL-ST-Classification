@@ -1,7 +1,7 @@
 # Transforming Vision: Model Proposal Leveraging Transformer Architectures for Semi-Supervised Image Classification
 
 ## Overview
-This project develops two novel semi-supervised image classification models leveraging transformer architectures. The models, ST-Class and SSL-ST-Class, utilize a Student Teacher network for initialization, employing techniques like Knowledge Distillation and Pseudo-Labels to enhance learning from limited labeled data. The aim is to achieve high accuracy and confidence in classifications while being data-efficient.
+This project develops two novel models: one supervised and one semi-supervised image classification model leveraging transformer architectures. The models, ST-Class and SSL-ST-Class, utilize a Student-Teacher network for initialization, employing techniques like Knowledge Distillation and Pseudo-Labels to enhance learning from limited labeled data. The aim is to achieve high accuracy and confidence in classifications while being data-efficient.
 
 ### Background
 Current supervised learning methods demand extensive labeled datasets, which are costly and time-consuming to produce. Semi-supervised approaches like SSL-ST-Class reduce this requirement significantly, leveraging both labeled and unlabeled data to train models. This project builds on the capabilities of transformers, as discussed in Dosovitskiy et al. (2021) and Touvron et al. (2021), to address these challenges effectively.
