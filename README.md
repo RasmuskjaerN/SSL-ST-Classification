@@ -1,10 +1,10 @@
 # [Project Name]: [Short Description]
 
 ## Overview
-Provide a concise overview of your project. Explain the problem it addresses, its objectives, and the outcomes you anticipate. This section should give a clear idea of what the project does and why it matters.
+This project develops two novel semi-supervised image classification models leveraging transformer architectures. The models, ST-Class and SSL-ST-Class, utilize a Student Teacher network for initialization, employing techniques like Knowledge Distillation and Pseudo-Labels to enhance learning from limited labeled data. The aim is to achieve high accuracy and confidence in classifications while being data-efficient.
 
 ### Background
-Detail the academic and practical context that necessitates your project. Include references to relevant research, existing solutions, and the specific gap your project aims to fill.
+Current supervised learning methods demand extensive labeled datasets, which are costly and time-consuming to produce. Semi-supervised approaches like SSL-ST-Class reduce this requirement significantly, leveraging both labeled and unlabeled data to train models. This project builds on the capabilities of transformers, as discussed in Dosovitskiy et al. (2021) and Touvron et al. (2021), to address these challenges effectively.
 
 ## Installation
 
@@ -29,18 +29,22 @@ python main.py
 ## Documentation
 
 ### Code Structure
-Describe the architecture of your project. Detail the modules and their functions, and how they interact with each other.
+The project is structured into several modules:
+
+- student_teacher_model.py: Implements the Student Teacher architecture.
+- data_loader.py: Handles data preprocessing and loading.
+- training.py: Contains the training loops for both ST-Class and SSL-ST-Class models.
+- evaluation.py: For performance evaluation and metrics visualization.
 
 ## Results
-Performance Metrics
-Discuss how the project's performance is measured. Include graphs or tables that show experimental results, comparisons with baselines, or benchmarks.
+Performance is quantified through accuracy metrics on CIFAR10 and CIFAR100 datasets, showing that our models perform comparably to traditional methods with significantly reduced data requirements. Graphs and tables detailing these metrics are included in the project thesis COMING SOON.
 
 ## Discussion
-Analyze the results and discuss potential improvements and future work.
+While the ST-Class model reaches an accuracy of 93.37% on CIFAR10 and 71.32% on CIFAR100, the SSL-ST-Class model achieves 89.44% and 47.52%, respectively. These results validate the effectiveness of semi-supervised learning models in utilizing less labeled data.
 
 ## Contributing
 How to Contribute
 Encourage others to contribute to your project by explaining how they can do so. Provide guidelines for submitting issues, pull requests, and code review standards.
 
 ## Acknowledgements
-Thank those who contributed to the project, including advisors, funding bodies, and any other supporters.
+Special thanks to the project supervisor, Hua Lu, and all contributors who have provided insights and support throughout the development of this project.
