@@ -35,6 +35,7 @@ The project is structured into several modules:
 - data_loader.py: Handles data preprocessing and loading.
 - training.py: Contains the training loops for both ST-Class and SSL-ST-Class models.
 - evaluation.py: For performance evaluation and metrics visualization.
+- vis_MAIN.py: Runs selected visualization scripts and saves images as png.
 
 ## Results
 Performance is quantified through accuracy metrics on CIFAR10 and CIFAR100 datasets, showing that our models perform comparably to traditional methods with significantly reduced data requirements. Graphs and tables detailing these metrics are included in the project thesis COMING SOON.
