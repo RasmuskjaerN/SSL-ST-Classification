@@ -52,4 +52,6 @@ How to Contribute
 Encourage others to contribute to your project by explaining how they can do so. Provide guidelines for submitting issues, pull requests, and code review standards.
 
 ## Acknowledgements
-Special thanks to the project supervisor, Hua Lu, and all contributors who have provided insights and support throughout the development of this project.
+We would like to firstly express our sincerest gratitude to our advisor Professor Hua Lu
+for his invaluable guidance throughout ups and down. We appreciate all your thoughfull
+feedback and truly couldn’t have done without it.
