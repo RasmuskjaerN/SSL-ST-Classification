@@ -9,15 +9,15 @@ Current supervised learning methods demand extensive labeled datasets, which are
 ## Installation
 
 ### Setup Instructions
-*Clone the repository*
+**Clone the repository**
 
 git clone [https://github.com/Username/SSL-ST-Classification.git](https://github.com/RasmuskjaerN/SSL-ST-Classification.git)
 
-*Navigate into the project directory*
+**Navigate into the project directory**
 
 cd projectname
 
-*Install dependencies*
+**Install dependencies**
 
 pip install -r requirements.txt
 
