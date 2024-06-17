@@ -49,7 +49,7 @@ The project is structured into several modules:
 - evaluation.py: For performance evaluation and metrics visualization.
 
 ## Architecture and Environment
-
+ 
 ### Model Architecture
 
 Our project leverages a Student-Teacher architecture using transformers, which enhances semi-supervised learning by utilizing pre-trained models to reduce training time and computational resources. Below we detail the architecture of our primary models:
