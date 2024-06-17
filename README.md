@@ -11,7 +11,7 @@ Detail the academic and practical context that necessitates your project. Includ
 ### Setup Instructions
 *Clone the repository*
 
-git clone https://github.com/yourusername/projectname.git
+git clone https://github.com/Username/SSL-ST-Classification.git
 
 *Navigate into the project directory*
 
